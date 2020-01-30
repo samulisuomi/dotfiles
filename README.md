@@ -33,3 +33,4 @@ _Under construction..._
 - [Magnet](https://apps.apple.com/us/app/magnet/id441258766?mt=12)
 - [Scroll Reverser](https://pilotmoon.com/scrollreverser/)
 - [SteelSeries ExactMouse Tool](https://steelseries.com/engine) ([direct download link](https://downloads.steelseriescdn.com/drivers/tools/steelseries-exactmouse-tool.dmg))
+- [Vanilla](https://matthewpalmer.net/vanilla/)

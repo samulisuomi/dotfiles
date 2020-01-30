@@ -1,3 +1,5 @@
+# ~/.bash_profile
+
 alias g="git"
 
 # brew install bash-completion

@@ -1,0 +1,21 @@
+# ~/.gitconfig
+
+[user]
+	name = Samuli Suomi
+	email = sasuomi@users.noreply.github.com
+
+[alias]
+	s = status
+	l = log
+	rb = rebase
+	rbi = rebase -i
+	rs = reset
+	rsh = reset HEAD~
+	pl = pull
+	ps = push
+	psf = push --force-with-lease
+	co = checkout
+	cm = commit
+	mrg = merge
+	f = fetch
+	d = diff

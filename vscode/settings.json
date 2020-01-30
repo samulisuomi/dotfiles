@@ -1,28 +1,28 @@
 // ~/Library/Application\ Support/Code/User/settings.json
 
 {
-  "window.title": "${activeEditorLong}",
-  "window.zoomLevel": 0,
-  "editor.scrollBeyondLastLine": false,
-  "editor.tabSize": 2,
+  "breadcrumbs.enabled": true,
   "editor.find.globalFindClipboard": false,
   "editor.find.seedSearchStringFromSelection": false,
-  "breadcrumbs.enabled": true,
-  "ruby.intellisense": "rubyLocate",
-  "files.associations": {
-      "*.hamlbars": "haml"
-  },
-  "javascript.implicitProjectConfig.experimentalDecorators": true,
-  "ruby.rubocop.executePath": "/Users/ssuomi/.rbenv/shims/",
-  "gitlens.advanced.telemetry.enabled": false,
-  "gitlens.codeLens.enabled": false,
-  "workbench.settings.editor": "json",
-  "search.useIgnoreFiles": true,
   // Set the default
   "editor.formatOnSave": false,
   // Enable per-language or workspace:
   // "[javascript]": {
-  //     "editor.formatOnSave": true,
-  //     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  // }
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  //   "editor.formatOnSave": true
+  // },
+  "editor.scrollBeyondLastLine": false,
+  "editor.tabSize": 2,
+  "files.associations": {
+    "*.hamlbars": "haml"
+  },
+  "gitlens.advanced.telemetry.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "ruby.rubocop.executePath": "/Users/ssuomi/.rbenv/shims/",
+  "ruby.intellisense": "rubyLocate",
+  "search.useIgnoreFiles": true,
+  "window.title": "${activeEditorLong}",
+  "window.zoomLevel": 0,
+  "workbench.settings.editor": "json"
 }

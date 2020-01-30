@@ -9,7 +9,7 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
   complete -o default -o nospace -F _git g;
 fi
 
-# brew install nvm
+# https://github.com/nvm-sh/nvm#installation-and-update
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

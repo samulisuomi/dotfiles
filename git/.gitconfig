@@ -5,17 +5,20 @@
 	email = 3490745+samulisuomi@users.noreply.github.com
 
 [alias]
-	s = status
+	cm = commit
+	co = checkout
+	d = diff
+	email = config user.email
+	f = fetch
 	l = log
+	mrg = merge
+	pl = pull
+	ps = push
+	psf = push --force-with-lease
 	rb = rebase
 	rbi = rebase -i
 	rs = reset
 	rsh = reset HEAD~
-	pl = pull
-	ps = push
-	psf = push --force-with-lease
-	co = checkout
-	cm = commit
-	mrg = merge
-	f = fetch
-	d = diff
+	s = status
+	st = stash
+	sts = stash save # "name"

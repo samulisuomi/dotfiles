@@ -9,11 +9,13 @@ _Under construction..._
 - [Docker](https://www.docker.com/products/docker-desktop)
 - [Homebrew](https://brew.sh/)
   * `brew install bash-completion`
-  * `brew install nvm`
+  * `brew install git`
   * `brew install rbenv`
 - [iTerm2](https://iterm2.com/downloads.html)
+- [nvm](https://github.com/nvm-sh/nvm)
 - [Postman](https://www.getpostman.com/)
 - [PSequel](http://www.psequel.com/)
+- [rbenv](https://github.com/rbenv/rbenv#installation)
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 - [VS Code](https://code.visualstudio.com/)
 
@@ -21,7 +23,7 @@ _Under construction..._
 
 - [Gimp](https://www.gimp.org/)
 - [Inkscape](https://inkscape.org/)
-- [Paintbrush]()
+- [Paintbrush](https://paintbrush.sourceforge.io/downloads/)
 
 ### Utilities
 

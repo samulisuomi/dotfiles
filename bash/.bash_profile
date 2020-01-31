@@ -18,3 +18,8 @@ export NVM_DIR="$HOME/.nvm"
 
 # brew install rbenv
 eval "$(rbenv init -)"
+
+# Set bash prompt
+if [ -f /path-to/dotfiles/bash/prompt.sh ]; then
+  source /path-to/dotfiles/bash/prompt.sh
+fi

@@ -1,6 +1,8 @@
 # ~/.bash_profile
 
 alias g="git"
+alias gc="cat ~/.gitconfig"
+alias gitc="gc"
 
 # brew install bash-completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then

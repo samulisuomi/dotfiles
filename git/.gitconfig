@@ -5,7 +5,11 @@
 	email = 3490745+samulisuomi@users.noreply.github.com
 
 [alias]
+	a = add
+	all = add --all
 	cm = commit
+	cma = commit --amend
+	cmm = commit -m
 	co = checkout
 	d = diff
 	email = config user.email

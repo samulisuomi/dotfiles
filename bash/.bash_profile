@@ -4,11 +4,13 @@ alias g="git"
 alias gc="cat ~/.gitconfig"
 alias gitc="gc"
 
-# brew install bash-completion
+# Prerequisite: brew install bash-completion
 if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 
-  complete -o default -o nospace -F _git g;
+  # TODO: Find __git_wrap__git_main automatically
+  # For debugging if __git_wrap__git_main changes: complete -p git
+  complete -o default -o nospace -F __git_wrap__git_main g;
 fi
 
 # https://github.com/nvm-sh/nvm#installation-and-update

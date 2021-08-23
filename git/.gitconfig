@@ -13,8 +13,8 @@
 	cmm = commit -m
 	co = checkout
 	d = diff
-	dh = "!git diff HEAD~$1;"
-	dhh = "!git diff HEAD~$1..HEAD~$2;"
+	dh = "!git diff HEAD~$1 && true"
+	dhh = "!git diff HEAD~$1..HEAD~$2 && true"
 	email = config user.email
 	f = fetch
 	l = log
@@ -24,7 +24,7 @@
 	psf = push --force-with-lease
 	rb = rebase
 	rbi = rebase -i
-	rbih = "!git rebase -i HEAD~$1;"
+	rbih = "!git rebase -i HEAD~$1 && true"
 	recent = !git reflog show --pretty=format:'%gs ~ %gd' --date=relative | grep 'checkout:' | grep -oE '[^ ]+ ~ .*' | awk -F~ '!seen[$1]++' | head -n 10 | awk -F' ~ HEAD@{' '{printf(\"  \\033[33m%s: \\033[37m %s\\033[0m\\n\", substr($2, 1, length($2)-1), $1)}' # https://ses4j.github.io/2020/04/01/git-alias-recent-branches/
 	rs = reset
 	rsh = reset HEAD~

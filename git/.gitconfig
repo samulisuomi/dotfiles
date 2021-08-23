@@ -1,5 +1,14 @@
 # ~/.gitconfig
 
+# FYI: You can use GIT_TRACE=1 for debugging. Example:
+#
+# ~/p/foo (PLAT-13732) $ GIT_TRACE=1 g dhh 2 1
+# 15:40:09.706286 git.c:730               trace: exec: git-dhh 2 1
+# 15:40:09.706550 run-command.c:664       trace: run_command: git-dhh 2 1
+# 15:40:09.707858 run-command.c:664       trace: run_command: 'git diff HEAD~$1..HEAD~$2 && true' 2 1
+# 15:40:09.716628 git.c:444               trace: built-in: git diff 'HEAD~2..HEAD~1'
+# 15:40:09.721815 run-command.c:664       trace: run_command: unset GIT_PAGER_IN_USE; LESS=FRX LV=-c less
+
 [user]
 	name = Samuli Suomi
 	email = 3490745+samulisuomi@users.noreply.github.com

@@ -24,6 +24,7 @@
 	d = diff
 	dh = "!git diff HEAD~$1 && true"
 	dhh = "!git diff HEAD~$1..HEAD~$2 && true"
+	ds = diff --staged
 	email = config user.email
 	f = fetch
 	l = log

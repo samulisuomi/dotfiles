@@ -13,6 +13,9 @@
 	name = Samuli Suomi
 	email = 3490745+samulisuomi@users.noreply.github.com
 
+[pull]
+	ff = only
+
 [alias]
 	a = add
 	all = add --all

@@ -24,6 +24,7 @@
 	cma = commit --amend
 	cmm = commit -m
 	co = checkout
+	cp = cherry-pick
 	d = diff
 	dh = "!git diff HEAD~$1 && true"
 	dhh = "!git diff HEAD~$1..HEAD~$2 && true"

@@ -1,21 +1,27 @@
 # dotfiles
 
-_Under construction..._
+## macOS
 
-## macOS applications
+### Installation
 
-### Development
+1. First, install:
+   - [Homebrew](https://brew.sh/)
+   - [nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
+2. Run `./setup.sh`
+   - Installs the needed brew packages. Individual docs:
+     * [pure](https://github.com/sindresorhus/pure)
+     * [rbenv](https://github.com/rbenv/rbenv#installation)
+   - Synlinks the dotfiles to their intended locations.
+
+3. Import the profile and key configs to iTerm 2 from the `iTerm2` directory.
+
+### Other devtools
 - [Docker](https://www.docker.com/products/docker-desktop)
-- [Homebrew](https://brew.sh/)
-  * `brew install bash-completion`
-  * `brew install git`
-  * `brew install rbenv`
 - [iTerm2](https://iterm2.com/downloads.html)
-- [nvm](https://github.com/nvm-sh/nvm)
+  * [iterm2-snazzy](https://github.com/sindresorhus/iterm2-snazzy)
 - [Postman](https://www.getpostman.com/)
-- [PSequel](http://www.psequel.com/)
-- [rbenv](https://github.com/rbenv/rbenv#installation)
+- [TablePlus](https://tableplus.com/)
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 - [VS Code](https://code.visualstudio.com/)
 

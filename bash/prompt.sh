@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# Adapted from https://github.com/Custodia/dotfiles
+
 dir_chomp () {
     pwd 2> /dev/null | sed -e "s|^$HOME|~|" -e 's:\(\.*[^/]\)[^/]*/:\1/:g'
 }

@@ -21,7 +21,8 @@ export NVM_DIR="$HOME/.nvm"
 # Prerequisite: brew install rbenv
 eval "$(rbenv init -)"
 
+# TODO: Make the path dynamic:
 # Set bash prompt
-if [ -f /path-to/dotfiles/bash/prompt.sh ]; then
-  source /path-to/dotfiles/bash/prompt.sh
-fi
+# if [ -f /path-to/dotfiles/bash/prompt.sh ]; then
+#   source /path-to/dotfiles/bash/prompt.sh
+# fi

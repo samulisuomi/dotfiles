@@ -18,5 +18,5 @@ BASEDIR=$(dirname $(readlink -f $0))
 # Create the symlinks:
 ln -sf $BASEDIR/bash/.bash_profile $HOME/.bash_profile
 ln -sf $BASEDIR/git/.gitconfig $HOME/.gitconfig
+ln -sf $BASEDIR/vim/.vimrc $HOME/.vimrc
 ln -sf $BASEDIR/zsh/.zshrc $HOME/.zshrc
-

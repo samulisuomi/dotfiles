@@ -19,6 +19,13 @@ zstyle ':completion:*' menu select
 
 # Configure and set sindresorhus/pure as the prompt:
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
+# Hack to prevent extra newlines (https://github.com/sindresorhus/pure/issues/509#issuecomment-641001784):
+print() {
+  [ 0 -eq $# -a "prompt_pure_precmd" = "${funcstack[-1]}" ] || builtin print "$@";
+}
 autoload -U promptinit; promptinit
 PURE_PROMPT_SYMBOL=$
 prompt pure
+# # Hack to have the whole prompt on a single line (https://github.com/sindresorhus/pure/issues/228#issuecomment-299425799):
+# prompt_newline='%666v'
+# PROMPT=" $PROMPT"

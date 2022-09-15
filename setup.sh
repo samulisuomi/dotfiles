@@ -7,9 +7,6 @@ brew upgrade --all
 # Install the packages we need:
 brew install bash-completion git pure rbenv ruby-build tree
 
-# Install more recent versions of some macOS tools:
-brew install vim homebrew/dupes/grep homebrew/dupes/openssh
-
 # Remove outdated versions from the cellar:
 brew cleanup
 

@@ -124,7 +124,7 @@
   },
   "Custom Command" : "No",
   "ASCII Anti Aliased" : true,
-  "Non Ascii Font" : "Monaco 12",
+  "Non Ascii Font" : "Monaco 9",
   "Vertical Spacing" : 1,
   "Use Bold Font" : true,
   "Option Key Sends" : 0,
@@ -472,7 +472,7 @@
     "Alpha Component" : 1,
     "Green Component" : 0.36078426241874695
   },
-  "Normal Font" : "Monaco 15",
+  "Normal Font" : "Menlo-Regular 14",
   "Ansi 2 Color" : {
     "Red Component" : 0.18161765858530998,
     "Color Space" : "sRGB",

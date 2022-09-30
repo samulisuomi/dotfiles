@@ -12,7 +12,7 @@
    - Installs the needed brew packages. Individual docs:
      * [pure](https://github.com/sindresorhus/pure)
      * [rbenv](https://github.com/rbenv/rbenv#installation)
-   - Synlinks the dotfiles to their intended locations.
+   - Symlinks the dotfiles to their intended locations.
 
 3. Import the profile and key configs to iTerm 2 from the `iTerm2` directory.
 

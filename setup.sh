@@ -2,7 +2,7 @@
 
 # Upgrade homebrew and any already-installed formulae:
 brew update
-brew upgrade --all
+brew upgrade
 
 # Install the packages we need:
 brew install bash-completion git pure rbenv ruby-build tree

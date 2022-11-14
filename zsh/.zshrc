@@ -5,6 +5,9 @@ alias gc="cat ~/.gitconfig"
 alias gitc="gc"
 alias h="history"
 
+# Set up brew (prerequisite: https://brew.sh/)
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # Set up nvm (prerequisite: https://github.com/nvm-sh/nvm#installation-and-update)
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm

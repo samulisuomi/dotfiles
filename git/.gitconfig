@@ -31,6 +31,7 @@
 	ds = diff --staged
 	email = config user.email
 	f = fetch
+	gpgsign = config commit.gpgsign
 	l = log
 	mrg = merge
 	pl = pull
@@ -45,3 +46,9 @@
 	s = status
 	st = stash
 	sts = stash save # "name"
+
+[commit]
+	gpgsign = false
+
+[pull]
+	ff = only

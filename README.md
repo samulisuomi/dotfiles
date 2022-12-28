@@ -40,6 +40,5 @@
 - [Gray](https://github.com/zenangst/Gray)
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake)
 - [Magnet](https://apps.apple.com/us/app/magnet/id441258766?mt=12)
-- [Scroll Reverser](https://pilotmoon.com/scrollreverser/)
-- [SteelSeries ExactMouse Tool](https://steelseries.com/) ([direct download link](https://downloads.steelseriescdn.com/drivers/tools/steelseries-exactmouse-tool.dmg))
+- [UnnaturalScrollWheels](https://github.com/ther0n/UnnaturalScrollWheels)
 - [Vanilla](https://matthewpalmer.net/vanilla/)

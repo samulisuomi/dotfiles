@@ -20,8 +20,10 @@ eval "$(rbenv init -)"
 autoload -Uz compinit; compinit
 zstyle ':completion:*' menu select
 
-# Bash-style opt+left/right/del behavior on paths by dropping "/" from the list:
-export WORDCHARS=$(echo $WORDCHARS | sed 's/\///')
+# Bash-style opt+left/right/del behavior:
+autoload -U select-word-style && select-word-style bash
+# Bash-style cmd+del behavior:
+bindkey \^U backward-kill-line
 
 # Configure and set sindresorhus/pure as the prompt:
 fpath+=("$(brew --prefix)/share/zsh/site-functions")

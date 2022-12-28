@@ -20,6 +20,9 @@ eval "$(rbenv init -)"
 autoload -Uz compinit; compinit
 zstyle ':completion:*' menu select
 
+# Bash-style opt+left/right/del behavior on paths by dropping "/" from the list:
+export WORDCHARS=$(echo $WORDCHARS | sed 's/\///')
+
 # Configure and set sindresorhus/pure as the prompt:
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
 # Hack to prevent extra newlines (https://github.com/sindresorhus/pure/issues/509#issuecomment-641001784):

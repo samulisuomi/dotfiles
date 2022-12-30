@@ -1,5 +1,6 @@
 # ~/.zshrc
 
+alias git="noglob git"
 alias g="git"
 alias gc="cat ~/.gitconfig"
 alias gitc="gc"

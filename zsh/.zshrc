@@ -2,6 +2,7 @@
 
 alias git="noglob git"
 alias g="git"
+alias vscodeg="VISUAL='code --wait' git"
 alias gc="cat ~/.gitconfig"
 alias gitc="gc"
 alias h="history"

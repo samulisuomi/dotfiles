@@ -20,6 +20,7 @@
 	a = add
 	all = add --all
 	b = branch
+	backup = "!f() { local branch_name=$(git rev-parse --abbrev-ref HEAD)-backup--$(date -u +"%Y-%m-%d--%H-%M-%S") && git branch ${branch_name} && echo \"Backup created in branch ${branch_name}\"; }; f"
 	cm = commit
 	cma = commit --amend
 	cmm = commit -m

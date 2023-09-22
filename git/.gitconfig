@@ -26,6 +26,7 @@
 	cmm = commit -m
 	co = checkout
 	cp = cherry-pick
+	cprange = "!git cherry-pick $1^..$2 && true"
 	d = diff
 	dh = "!git diff HEAD~$1 && true"
 	dhh = "!git diff HEAD~$1..HEAD~$2 && true"

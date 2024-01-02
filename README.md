@@ -37,6 +37,7 @@
 - [Android File Transfer](https://www.android.com/filetransfer/)
 - [Dato](https://apps.apple.com/us/app/dato/id1470584107?mt=12)
 - [GIPHY Capture](https://giphy.com/apps/giphycapture)
+- [github-bookmarklets](https://github.com/samulisuomi/github-bookmarklets)
 - [Gray](https://github.com/zenangst/Gray)
 - [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake)
 - [Magnet](https://apps.apple.com/us/app/magnet/id441258766?mt=12)

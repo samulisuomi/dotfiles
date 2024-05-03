@@ -35,6 +35,7 @@
 	f = fetch
 	gpgsign = config commit.gpgsign
 	l = log
+	lol = log --oneline
 	mrg = merge
 	pl = pull
 	ps = push

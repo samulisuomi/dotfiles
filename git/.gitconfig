@@ -34,6 +34,7 @@
 	email = config user.email
 	f = fetch
 	gpgsign = config commit.gpgsign
+	is-x-ancestor-of-y = "!git merge-base --is-ancestor $1 $2 && echo yes || echo no"
 	l = log
 	lol = log --oneline
 	mrg = merge

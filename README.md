@@ -24,7 +24,7 @@
 
 - [Docker](https://www.docker.com/products/docker-desktop)
 - [iTerm2](https://iterm2.com/downloads.html)
-  - The color profile I use is based on [iterm2-snazzy](https://github.com/sindresorhus/iterm2-snazzy)
+  - The colors I use (in the [Samuli](/iTerm2/Profiles/Samuli%20(Natural%20Text%20Editing).json) profile) is based on [iterm2-snazzy](https://github.com/sindresorhus/iterm2-snazzy).
 - [Postman](https://www.getpostman.com/)
 - [TablePlus](https://tableplus.com/)
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)

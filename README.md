@@ -10,16 +10,21 @@
 
 2. Run `./setup.sh`
    - Installs the needed brew packages. Individual docs:
-     * [pure](https://github.com/sindresorhus/pure)
-     * [rbenv](https://github.com/rbenv/rbenv#installation)
+     - [pure](https://github.com/sindresorhus/pure)
+     - [rbenv](https://github.com/rbenv/rbenv#installation)
    - Symlinks the dotfiles to their intended locations.
 
 3. Import the profile and key configs to iTerm 2 from the `iTerm2` directory.
 
-### Other devtools
+### Keyboard layout
+
+- [Finsi](https://github.com/samulisuomi/finsi)
+
+### Misc dev tools
+
 - [Docker](https://www.docker.com/products/docker-desktop)
 - [iTerm2](https://iterm2.com/downloads.html)
-  * The color profile I use is based on [iterm2-snazzy](https://github.com/sindresorhus/iterm2-snazzy)
+  - The color profile I use is based on [iterm2-snazzy](https://github.com/sindresorhus/iterm2-snazzy)
 - [Postman](https://www.getpostman.com/)
 - [TablePlus](https://tableplus.com/)
 - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)

@@ -3,8 +3,8 @@
 alias git="noglob git"
 alias g="git"
 alias vscodeg="VISUAL='code --wait' git"
-alias gc="cat ~/.gitconfig"
-alias gitc="gc"
+alias g-config-cat="cat ~/.gitconfig"
+alias g-config-set-email-to-personal="git config user.email 3490745+samulisuomi@users.noreply.github.com; git config commit.gpgsign false"
 alias h="history"
 
 if [[ "$(uname)" == "Darwin" ]]; then

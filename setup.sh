@@ -18,5 +18,8 @@ BASEDIR=$(dirname $(readlink -f $0))
 # Create the symlinks:
 ln -sf $BASEDIR/bash/.bash_profile $HOME/.bash_profile
 ln -sf $BASEDIR/git/.gitconfig $HOME/.gitconfig
+GHOSTTY_DIR="$HOME/Library/Application Support/com.mitchellh.ghostty"
+mkdir -p "$GHOSTTY_DIR"
+ln -sf "$BASEDIR/ghostty/config" "$GHOSTTY_DIR/config"
 ln -sf $BASEDIR/vim/.vimrc $HOME/.vimrc
 ln -sf $BASEDIR/zsh/.zshrc $HOME/.zshrc

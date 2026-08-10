@@ -1,0 +1,47 @@
+# Typography and colors from the iTerm2 "Samuli (Natural Text Editing)" profile.
+font-family = Monaco
+font-style = Regular
+font-style-bold = Bold
+font-size = 14
+
+background = #1b1d25
+foreground = #eff0eb
+bold-color = #f8f8f8
+
+cursor-color = #eaeaea
+cursor-text = #282a36
+cursor-style = block
+cursor-style-blink = false
+shell-integration-features = no-cursor
+
+selection-background = #92bcd0
+selection-foreground = #000000
+
+# Give inactive splits a subtle gray tint.
+unfocused-split-opacity = 0.85
+unfocused-split-fill = #686868
+
+palette = 0=#000000
+palette = 1=#ff5c57
+palette = 2=#2ef771
+palette = 3=#f0fa82
+palette = 4=#57c7ff
+palette = 5=#ff6ac1
+palette = 6=#9aedfe
+palette = 7=#f1f1f0
+palette = 8=#686868
+palette = 9=#ff5c57
+palette = 10=#2ef770
+palette = 11=#f0fa82
+palette = 12=#57c7ff
+palette = 13=#ff6ac1
+palette = 14=#9aedfe
+palette = 15=#f1f1f0
+
+# The cherries on top for mac style natural text editing behaviors:
+keybind = alt+delete=esc:d
+keybind = super+delete=text:\x0b
+
+# Also add alt+(shift+)tab for switching between splits:
+keybind = performable:alt+tab=goto_split:next
+keybind = performable:alt+shift+tab=goto_split:previous

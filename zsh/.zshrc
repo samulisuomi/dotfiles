@@ -7,6 +7,13 @@ alias g-config-cat="cat ~/.gitconfig"
 alias g-config-set-email-to-personal="git config user.email 3490745+samulisuomi@users.noreply.github.com; git config commit.gpgsign false"
 alias h="history"
 
+# Bash-style opt+left/right/del, cmd+del, and forward-del behavior:
+bindkey -e
+autoload -Uz select-word-style
+select-word-style bash
+bindkey "^[[3~" delete-char
+bindkey "^U" backward-kill-line
+
 if [[ "$(uname)" == "Darwin" ]]; then
     # Set up brew (prerequisite: https://brew.sh/)
     eval "$(/opt/homebrew/bin/brew shellenv)"
@@ -22,11 +29,6 @@ if [[ "$(uname)" == "Darwin" ]]; then
     # Set tab completion behavior:
     autoload -Uz compinit; compinit
     zstyle ':completion:*' menu select
-
-    # Bash-style opt+left/right/del behavior:
-    autoload -U select-word-style && select-word-style bash
-    # Bash-style cmd+del behavior:
-    bindkey \^U backward-kill-line
 
     # Configure and set sindresorhus/pure as the prompt:
     fpath+=("$(brew --prefix)/share/zsh/site-functions")

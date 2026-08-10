@@ -46,3 +46,6 @@ keybind = super+shift+r=text:exec zsh -l\n
 # Also add alt+(shift+)tab for switching between splits:
 keybind = performable:alt+tab=goto_split:next
 keybind = performable:alt+shift+tab=goto_split:previous
+
+# App icon:
+macos-icon = glass

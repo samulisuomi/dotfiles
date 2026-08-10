@@ -41,6 +41,7 @@ palette = 15=#f1f1f0
 # The cherries on top for mac style natural text editing behaviors:
 keybind = alt+delete=esc:d
 keybind = super+delete=text:\x0b
+keybind = super+shift+r=text:exec zsh -l\n
 
 # Also add alt+(shift+)tab for switching between splits:
 keybind = performable:alt+tab=goto_split:next

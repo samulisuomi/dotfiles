@@ -17,8 +17,8 @@ shell-integration-features = no-cursor
 selection-background = #92bcd0
 selection-foreground = #000000
 
-# Give inactive splits a subtle gray tint.
-unfocused-split-opacity = 0.85
+# Give inactive splits a subtle gray tint:
+unfocused-split-opacity = 0.8
 unfocused-split-fill = #686868
 
 palette = 0=#000000
@@ -38,6 +38,11 @@ palette = 13=#ff6ac1
 palette = 14=#9aedfe
 palette = 15=#f1f1f0
 
+# Padding:
+window-padding-x = 8
+window-padding-y = 8
+window-padding-balance = false
+
 # The cherries on top for mac style natural text editing behaviors:
 keybind = alt+delete=esc:d
 keybind = super+delete=text:\x0b
@@ -48,4 +53,6 @@ keybind = performable:alt+tab=goto_split:next
 keybind = performable:alt+shift+tab=goto_split:previous
 
 # App icon:
-macos-icon = glass
+macos-icon = retro
+
+scrollback-limit = 1000000000

@@ -14,8 +14,6 @@
      - [rbenv](https://github.com/rbenv/rbenv#installation)
    - Symlinks the dotfiles to their intended locations.
 
-3. Import the profile and key configs to iTerm 2 from the `iTerm2` directory.
-
 ### Keyboard layout
 
 - [Finsi](https://github.com/samulisuomi/finsi)

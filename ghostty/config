@@ -55,4 +55,4 @@ keybind = performable:alt+shift+tab=goto_split:previous
 # App icon:
 macos-icon = retro
 
-scrollback-limit = 1000000000
+scrollback-limit-bytes = 1000000000

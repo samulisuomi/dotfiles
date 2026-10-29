@@ -52,6 +52,10 @@ keybind = super+shift+r=text:exec zsh -l\n
 keybind = performable:alt+tab=goto_split:next
 keybind = performable:alt+shift+tab=goto_split:previous
 
+# Workaround for copy/paste not working in the search box:
+keybind = super+v=paste_from_clipboard
+keybind = super+c=copy_to_clipboard
+
 # App icon:
 macos-icon = retro
 

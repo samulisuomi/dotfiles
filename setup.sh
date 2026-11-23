@@ -23,3 +23,16 @@ mkdir -p "$GHOSTTY_DIR"
 ln -sf "$BASEDIR/ghostty/config" "$GHOSTTY_DIR/config"
 ln -sf $BASEDIR/vim/.vimrc $HOME/.vimrc
 ln -sf $BASEDIR/zsh/.zshrc $HOME/.zshrc
+
+# Optionally link the agent skills for Cursor and/or Claude Code:
+for harness in "Cursor:.cursor" "Claude Code:.claude"; do
+  name="${harness%%:*}"
+  dir="$HOME/${harness#*:}/skills"
+  read -p "Link skills for $name into $dir? [y/N] " answer
+  if [[ "$answer" =~ ^[Yy]$ ]]; then
+    mkdir -p "$dir"
+    for skill in $BASEDIR/skills/*/; do
+      ln -sfn "${skill%/}" "$dir/$(basename "$skill")"
+    done
+  fi
+done

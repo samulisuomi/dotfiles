@@ -13,6 +13,8 @@
      - [pure](https://github.com/sindresorhus/pure)
      - [rbenv](https://github.com/rbenv/rbenv#installation)
    - Symlinks the dotfiles to their intended locations.
+   - Optionally symlinks each agent skill in `skills/` into `~/.cursor/skills/`
+     and/or `~/.claude/skills/` (asks for each).
 
 ### Keyboard layout
 

@@ -4,7 +4,7 @@ alias git="noglob git"
 alias g="git"
 alias vscodeg="VISUAL='code --wait' git"
 alias g-config-cat="cat ~/.gitconfig"
-alias g-config-set-email-to-personal="git config user.email 3490745+samulisuomi@users.noreply.github.com; git config commit.gpgsign false"
+alias g-config-set-to-personal="git config user.email 3490745+samulisuomi@users.noreply.github.com; git config commit.gpgsign false; git config tag.gpgsign false"
 alias h="history"
 
 # Bash-style opt+left/right/del, cmd+del, and forward-del behavior:
